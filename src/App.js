@@ -5,6 +5,7 @@ import Rodape from "./componentes/Rodape";
 import Time from "./componentes/Time";
 import { v4 as uuidv4 } from 'uuid';
 
+
 function App() {
   
   const [times, setTimes] = useState([
@@ -271,6 +272,11 @@ function App() {
     }))
   }
 
+  const [toggle, setToggle] = useState(false)
+
+  function toggleForm() {
+    setToggle(!toggle)
+  }
 
   return (
     <div>
@@ -279,8 +285,13 @@ function App() {
         casdastrarTime={casdastrarTime}
         times={times.map(time => time.nome)}
         aoCadastrar={colaborador => setColaboradores([...colaboradores, colaborador])} 
+        visivel={toggle}
       />
       <section className="times">
+        <div className="toggle-form" onClick={toggleForm}>
+          <img src="/imagens/btn.png" alt="Logo do Organo" />
+        </div>
+
         <h1>Minha organização</h1>
         {times.map((time, indice) => 
           <Time 

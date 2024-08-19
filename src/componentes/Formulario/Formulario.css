@@ -4,7 +4,11 @@
     margin: 80px 50px;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 0 20px 25px;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
 }
+
 .formulario-container .formulario {
     background: #F7F7F7;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
@@ -15,4 +19,14 @@
 .formulario-container .formulario h2 {
     font-weight: 400;
     font-size: 32px;
+}
+
+.visible {
+    max-height: 830px;
+
+}
+
+.not-visible {
+    max-height: 0;
+    padding: 0 20px;
 }
