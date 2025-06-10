@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# 🏢 Organo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="/public/imagens/banner.png" alt="Banner do Organo" width="500"/>
+</div>
 
-## Available Scripts
+## 📋 Sobre o Projeto
 
-In the project directory, you can run:
+Organo é uma aplicação web desenvolvida em React.js que permite a organização e gerenciamento de equipes de forma intuitiva e visual. Com ela, você pode criar, organizar e visualizar times de diferentes áreas da tecnologia, mantendo um registro organizado de todos os colaboradores.
 
-### `npm start`
+## ✨ Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ Cadastro de colaboradores com nome, cargo e foto
+- 🎨 Personalização de cores para cada time
+- ⭐ Sistema de favoritos para marcar colaboradores importantes
+- 🗑️ Possibilidade de remover colaboradores
+- 📊 Organização por diferentes áreas:
+  - Programação
+  - Front-End
+  - Data Science
+  - DevOps
+  - UX e Design
+  - Mobile
+  - Inovação e Gestão
+- 🔄 Toggle para mostrar/ocultar formulário de cadastro
+- 🎯 Interface responsiva e intuitiva
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologias Utilizadas
 
-### `npm test`
+- [React.js](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programação
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Estilização
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Estruturação
+- [React Icons](https://react-icons.github.io/react-icons/) - Biblioteca de ícones
+- [UUID](https://www.npmjs.com/package/uuid) - Geração de IDs únicos
+- [Hex to RGBA](https://www.npmjs.com/package/hex-to-rgba) - Conversão de cores
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Como Executar o Projeto
 
-### `npm run build`
+# Clone este repositório
+```bash
+git clone https://github.com/PedroFiel/organo.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Acesse a pasta do projeto
+```bash
+cd organo
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Instale as dependências
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Execute a aplicação
+npm start
+```
 
-### `npm run eject`
+A aplicação estará disponível em: `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📱 Layout e Componentes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto é construído com uma arquitetura de componentes React bem estruturada:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `Banner` - Header da aplicação
+- `Formulario` - Cadastro de novos colaboradores e times
+- `Time` - Exibição dos times e seus membros
+- `Colaborador` - Card individual de cada membro
+- `ListaSuspensa` - Seleção de times
+- `Campo` - Inputs do formulário
+- `Botao` - Botões padronizados
+- `Rodape` - Footer da aplicação
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contribuindo
 
-## Learn More
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 Licença
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-### Code Splitting
+## 👥 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Seu Nome - [Seu GitHub](https://github.com/seu-usuario)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  Feito com ❤️ por Você
+</div>
